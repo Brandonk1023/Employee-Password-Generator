@@ -23,7 +23,7 @@ function generatePassword() {
 
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     window.alert("Password length must be specified in digits from 8-128.  Please re-enter desired  password length.");
-    return;
+    return " Please try again.";
   }
 
   window.alert("You chose " + passwordLength + " as the password length");
@@ -55,6 +55,12 @@ function generatePassword() {
   var password = "";
 
   criteria()
+
+  if (availableCharacters.length < 1 ) {
+    window.alert("Password must have at least 1 specified criteria. Please try again.")
+    return "Please try again.";
+  }
+
   window.alert(" You have chosen " + passwordCharacterOptions + ", as your password criteria.");
   passwordCharacterOptions = [];
 

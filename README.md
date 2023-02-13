@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 The motivation behind this project was to create a psuedo-random password generator for employee/user use.  The generator allows the selection of password-length and password-criteria through prompts to create the criteria needed by the user.  Once generated the ouput will be displayed on the webpage for the employee/user to obtain and use.  In completing this project I learned about manipulating arrays, creating interactive prompts, functions, and for-loops.
 
 ## Table of Contents (Optional)
@@ -24,7 +17,18 @@ This application is browser based, and will run in the browser.  No extra instal
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Usage is intended for employees/users to create psuedo-random passwords of a specified criteria and length. To use the application:
+
+1.Click on the large generate button.
+
+2.Enter in your desired password length into the prompt.
+
+3.Select the criteria that you desire using the prompts for uppercase, lowercase, numeric, and special characters.
+
+4.Your password will then be displayed on the webpage.  It will have been generated with the criteria that the user set.
+
+This process can be repeated as much as necessary.  Just hit the generate button to start the password generator again.
+
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -42,4 +46,4 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
