@@ -17,6 +17,8 @@ var specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "
 
 function generatePassword() {
 
+  availableCharacters = [];
+
   passwordLength = parseInt(window.prompt("Enter password length. Can only have 8-128 characters:"));
 
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
@@ -70,9 +72,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
