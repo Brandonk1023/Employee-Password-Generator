@@ -34,7 +34,7 @@ This process can be repeated as much as necessary.  Just hit the generate button
 
 ![password length prompt](Employee-Password-Generator\assets\images\Passwordlengthprompt.jpg)
 
-![criteria prompt](Employee-Password-Generator\assets\images\CriteriaPrompt.jpg)
+![criteria prompt](assets/images/CriteriaPrompt.jpg)
 
 ![generated password](Employee-Password-Generator\assets\images\GeneratedPassword.jpg)
 
