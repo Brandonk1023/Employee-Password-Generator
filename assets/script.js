@@ -27,6 +27,7 @@ function generatePassword() {
   window.alert("You chose " + passwordLength + " as the password length");
 
   function criteria() {
+
     if (confirm("Should your password have uppercase letters?")) {
       availableCharacters = availableCharacters.concat(upperCase);
       passwordCharacterOptions.push("uppercase");
@@ -45,11 +46,20 @@ function generatePassword() {
     if (confirm("should your password contain special charracters?")) {
       availableCharacters = availableCharacters.concat(specialCharacter);
       passwordCharacterOptions.push(" special characters")
-    } return true;
+    }
+    return;
   };
 
-  criteria();
+  var password = "";
+
+  criteria()
   window.alert(" You have chosen " + passwordCharacterOptions + ", as your password criteria.");
+
+  for (var x = 0; x < passwordLength; x++) {
+    var randomCharacter = Math.floor(Math.random() * passwordLength);
+    password = password + availableCharacters[randomCharacter];
+  }
+  return password;
 };
 
 // Get references to the #generate element
