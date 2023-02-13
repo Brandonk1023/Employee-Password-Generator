@@ -54,6 +54,7 @@ function generatePassword() {
 
   criteria()
   window.alert(" You have chosen " + passwordCharacterOptions + ", as your password criteria.");
+  passwordCharacterOptions = [];
 
   for (var x = 0; x < passwordLength; x++) {
     var randomCharacter = Math.floor(Math.random() * passwordLength);
