@@ -27,23 +27,69 @@ Usage is intended for employees/users to create psuedo-random passwords of a spe
 
 4.Your password will then be displayed on the webpage.  It will have been generated with the criteria that the user set.
 
-This process can be repeated as much as necessary.  Just hit the generate button to start the password generator again.
+This process can be repeated as much as necessary.  Just hit the generate button or enter to start the password generator again.
 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+   
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![opening screen](assets\images\OpeningWindow.jpg)
+    ```
+
+     ```md
+    ![password length prompt](assets\images\Passwordlengthprompt.jpg)
+    ```
+
+     ```md
+    ![criteria prompt](assets\images\CriteriaPrompt.jpg)
+    ```
+
+     ```md
+    ![generated password](assets\images\GeneratedPassword.jpg)
     ```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Starter Code Rep:
+https://github.com/coding-boot-camp/friendly-parakeet
 
-If you followed tutorials, include links to those here as well.
+Starter Code Author:
+Xandromus
+
+GitHub URL for Xandromus:
+https://github.com/Xandromus
+
+W3Schools Array Methods Resource List:
+https://www.w3schools.com/js/js_array_methods.asp
+
+W3Schools prompt, confirm, and alert methods resource URLs:
+Prompt - https://www.w3schools.com/jsref/met_win_prompt.asp
+
+Confirm - https://www.w3schools.com/jsref/met_win_confirm.asp
+
+Alert - https://www.w3schools.com/jsref/met_win_alert.asp
+
 
 ## License
 
 MIT License
+
+Copyright (c) 2023 Brandonk1023
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
