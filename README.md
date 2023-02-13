@@ -30,14 +30,14 @@ Usage is intended for employees/users to create psuedo-random passwords of a spe
 This process can be repeated as much as necessary.  Just hit the generate button or enter to start the password generator again.
 
 
-   
-    ![opening screen](assets\images\OpeningWindow.jpg)
+![opening screen](assets\images\OpeningWindow.jpg)
 
-    ![password length prompt](assets\images\Passwordlengthprompt.jpg)
+![password length prompt](assets\images\Passwordlengthprompt.jpg)
 
-    ![criteria prompt](assets\images\CriteriaPrompt.jpg)
+![criteria prompt](assets\images\CriteriaPrompt.jpg)
 
-    ![generated password](assets\images\GeneratedPassword.jpg)
+![generated password](assets\images\GeneratedPassword.jpg)
+
 
 ## Credits
 
