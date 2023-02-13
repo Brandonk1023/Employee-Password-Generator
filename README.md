@@ -31,21 +31,13 @@ This process can be repeated as much as necessary.  Just hit the generate button
 
 
    
-    ```md
     ![opening screen](assets\images\OpeningWindow.jpg)
-    ```
 
-     ```md
     ![password length prompt](assets\images\Passwordlengthprompt.jpg)
-    ```
 
-     ```md
     ![criteria prompt](assets\images\CriteriaPrompt.jpg)
-    ```
 
-     ```md
     ![generated password](assets\images\GeneratedPassword.jpg)
-    ```
 
 ## Credits
 
