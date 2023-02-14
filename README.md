@@ -30,13 +30,13 @@ Usage is intended for employees/users to create psuedo-random passwords of a spe
 This process can be repeated as much as necessary.  Just hit the generate button or enter to start the password generator again.
 
 
-![opening screen](assets/images/OpeningWindow.jpg | width=300)
+![opening screen](assets/images/OpeningWindow.jpg)
 
-![password length prompt](assets/images/Passwordlengthprompt.jpg | width=300)
+![password length prompt](assets/images/Passwordlengthprompt.jpg)
 
-![criteria prompt](assets/images/CriteriaPrompt.jpg | width=300)
+![criteria prompt](assets/images/CriteriaPrompt.jpg)
 
-![generated password](assets/images/GeneratedPassword.jpg | width=300)
+![generated password](assets/images/GeneratedPassword.jpg)
 
 
 ## Credits
