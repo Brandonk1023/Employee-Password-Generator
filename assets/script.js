@@ -1,12 +1,4 @@
-// Assignment code here
-//prompted for password criteria
-//prompted for password length of 8-128
-//asked to to confirm characters lower,upper,numeric,and/ special
-//input must be validated after each prompt/at least one character type must be selected
-//when all prompts are answered password is generated matching criteria
-//the password is either displayed in alert/printed to page
-//window.prompt()
-//window.alert()
+
 var passwordLength = 0;
 var passwordCharacterOptions = [];
 var availableCharacters = [];
